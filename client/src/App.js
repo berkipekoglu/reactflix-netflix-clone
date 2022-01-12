@@ -1,11 +1,8 @@
-import './App.css';
+import './App.scss';
+import Home from './home/Home';
 
 function App() {
-  return (
-    <div>
-      hi, i am reactflix
-    </div>
-  );
+  return <Home />
 }
 
 export default App;
